@@ -11,6 +11,7 @@ export const Banner = () => {
   <div className="video-background">
 
   <div className="video-wrap">
+    
     <div id='video' >
 
       <video id='bgvid' autoPlay muted loop className={style.video}><source src={video1}/></video>
@@ -32,7 +33,8 @@ export const Banner = () => {
 <div className={style.overVideo}><h2 >Frontend Developer</h2>
 
 
-<div ><button style={{fontSize:30, marginTop:50}} className="btn btn-outline-light">Portfolio</button></div>
+<div ><button style={{fontSize:24, marginTop:50}} className="btn btn-outline-light">Portfolio</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<button style={{fontSize:24, marginTop:50}} className="btn btn-outline-light">Curriculum</button></div>
 
 
 
