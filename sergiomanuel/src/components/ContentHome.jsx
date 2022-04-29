@@ -24,7 +24,7 @@ export const ContentHome = () => {
 
 
 <div ><NavLink style={{fontSize:24, marginTop:50}} className="btn btn-outline-light" to='/portfolio'>Portfolio</NavLink> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<a style={{fontSize:24, marginTop:50}} className="btn btn-outline-light" href="https://www.sergiomanuel.site/resume.pdf">Resume</a></div>
+<a style={{fontSize:24, marginTop:50}} className="btn btn-outline-light" href="https://www.sergiomanuel.site/resume.pdf" target='_blank'>Resume</a></div>
 
 
 
