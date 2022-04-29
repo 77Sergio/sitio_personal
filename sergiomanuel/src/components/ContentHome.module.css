@@ -1,6 +1,47 @@
+.overVideo{
+  color: white;
+  text-align: center;
+ vertical-align: middle;
+}
+.contenido{
+  height: 50vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contenido2{
+  position: relative;
+  vertical-align: middle;
+}
+.foto{
+  border-radius: 5px;
+  
+}
+.columnaFoto{
+  max-width: 330px;
+}
+
 @media (orientation: portrait) {
   .margen {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 50px;
   }
+  .contenido{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
+.foto{
+
+  width:-webkit-fill-available;
+}
+#columnaFoto{
+  max-width: 100%;
+}
+}
+
+

@@ -1,0 +1,33 @@
+.overVideo{
+    color: white;
+    text-align: center;
+   vertical-align: middle;
+  }
+  .contenido{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .contenido2{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  
+  @media (orientation: portrait) {
+    .margen {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 50px;
+    }
+    .contenido{
+      height: 100vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  }

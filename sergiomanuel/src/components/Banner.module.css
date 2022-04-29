@@ -4,22 +4,7 @@
     position:fixed;
     z-index:-1;
 }
-.overVideo{
-    color: white;
-    text-align: center;
-   vertical-align: middle;
-}
-.contenido{
-    height: 60vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
 
-}
-.contenido2{
-    position: relative;
-    vertical-align: middle;
-}
 h1{
     font-size: 70px;
 }
@@ -29,13 +14,7 @@ h2{
 }
 
 @media (orientation: portrait){
-    .contenido{
-        height: 100vh;
-        display:flex;
-        justify-content: center;
-        align-items: center;
     
-    }
     .video{
         height: 100vh;
         position:fixed;
@@ -50,3 +29,28 @@ h2{
         font-size: 30px;
     }
 }
+
+.footer {
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .contiene{
+     margin: auto;
+     display: inline-flex;
+  }
+  .texto_footer{
+    font-weight: 500;
+    overflow: none;
+    white-space: nowrap;
+    margin-top: 23px;
+    }
+    body{
+        background: #282828;
+    }

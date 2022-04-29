@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.columnaFoto{
+  max-width: 320px !important;
+}
+.columna1{
+  margin-top: 20px;
+  
+}
+.tarjeta{
+  padding: 10px;
+}
+
+@media (orientation: portrait) {
+  .columnaFoto{
+    max-width: 100% !important;
+  }
+  .columna1{
+    margin-top: 10px;
+    min-width: fit-content;
+  }
+  .columna2{
+    width: 100% !important;
+    
+  }
+}
