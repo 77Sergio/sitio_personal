@@ -1,6 +1,5 @@
 import { Banner } from './components/Banner.jsx';
 import { ContentHome } from './components/ContentHome.jsx';
-import { Curriculum } from './components/Curriculum.jsx';
 import { Portfolio } from './components/Portfolio.jsx';
 import Header from './components/Header.jsx'
 import {
@@ -22,9 +21,9 @@ function App() {
 
 <Routes>
   <Route path='/' element={<ContentHome/>}/>
+  <Route path='*' element={<ContentHome/>}/>
   <Route path='/home' element={<ContentHome/>}/>
   <Route path='/portfolio' element={<Portfolio/>}/>
-  <Route path='/curriculum' element={<Curriculum/>}/>
 </Routes>
 
 
