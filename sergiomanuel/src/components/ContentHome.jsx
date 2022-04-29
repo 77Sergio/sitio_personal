@@ -77,7 +77,7 @@ export const ContentHome = () => {
         <div className={styles.margen}>
         <br /> <br /><h2 className={styles.overVideo}>Trajectory</h2><br />
       <div className="row row-cols-2 row-cols-md-2 g-4 ">
-        <div className="col">
+        <div className="col w-100">
           <div className="card">
             
               <img src={enzacta} className="card-img-top" alt="ENZACTA" />
@@ -101,7 +101,7 @@ export const ContentHome = () => {
           </div>
         </div>
         
-        <div className="col" style={{marginBottom:50}}>
+        <div className="col w-100" style={{marginBottom:50}}>
           <div className="card">
             <img src={scanda} className="card-img-top" alt="SCANDA" />
             <div className="card-body">
@@ -123,7 +123,7 @@ export const ContentHome = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col w-100">
           <div className="card">
             <img src={axa} className="card-img-top" alt="AXA"/>
             <div className="card-body">
@@ -141,7 +141,7 @@ export const ContentHome = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col w-100">
           <div className="card">
             <img src={metlife} className="card-img-top" alt="Metlife"/>
             <div className="card-body">
@@ -155,7 +155,7 @@ export const ContentHome = () => {
               <li>Courses Packaging (SCORM standard) using JavaScript and XML.</li>
               <li>Functionality and quality tests.</li>
               <li>SAP Success Factors and ORACLE PeopleSoft system administration.</li>
-              <li>Developer teams coordinator (designers, programmers and pedagogues.</li>
+              <li>Developer teams coordinator (designers, programmers and pedagogues).</li>
                 <li>Organizational change strategies development (Training, communication, documentation repositories, etc.) for implementation of a global strategies in Latin America.
                 </li>
               </ul>
